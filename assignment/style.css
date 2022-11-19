@@ -1,7 +1,53 @@
-header { background-color: #3789;}
-.info {
+header {
+   background-color: #3789;
+}
 
-    background-color: ;
-    text color: ;
 
+.container {
+   position: relative;
+   text-align: center;
+   margin: auto;
+   
+   
  }
+.topcentered{ 
+   position: relative;
+   top: 20px;
+   left: 248px;
+   text-align: center;
+   width: 400px;
+   
+  
+
+}
+.bottomcentered {
+   position: absolute;
+   top: 325px;
+   left: 248px;
+   text-align: center;
+   width: 400px;
+   
+   
+}
+
+
+h2 {
+   background-color: #fdbb2d;
+   color: #0a3b02;
+  
+}
+
+h3{
+   background-color: royalblue;
+   color: aqua;
+}
+
+body{
+   padding: 10px;
+   
+}
+
+
+
+
+

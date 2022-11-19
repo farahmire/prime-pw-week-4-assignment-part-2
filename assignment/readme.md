@@ -1,47 +1,21 @@
-<!DOCTYPE html>
-<html lang="en-US">
+# Tier 1 Week 4 - Part 2
 
-<head>
-  <meta charset="utf-8">
-  <title>Week 4 Assignment</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <!-- Create and link a CSS file! -->
-</head>
+This week we'll be pulling together all of the Javascript techniques you've learned thus far as well as practicing with HTML & CSS.
 
+## Topics Covered
 
-<header>
-  <h1>Week 4 Assignment - Part 2</h1>
-  <p>Check console for errors.</p>
-</header>
-
-<body>
+- variables
+- arrays
+- conditionals
+- functions
+- HTML & CSS
 
 
+## Assignment - Styling with `CSS` 
 
+Now let's practice some CSS! For this, you will update the index.html file and create a new CSS Stylesheet. 
 
-  <div class="container">
-    <div class="topcentered">
-      <h2> My name is Farah Mire</h2>
-    </div>
-
-    <div class="img">
-    <img src="civic.jpeg" alt="" width="400" height="300" class="center" />
-  </div>
-
-
-    <div class="bottomcentered">
-      <h3> and i drive a Honda Civic</h3>
-    </div>
-
-
-
-  </div>
-
-</body>
-
-</html>
-
-<!---     Requirements:
+Requirements:
 - Place the existing `<h1>` and `<p>` inside of a `header` element and add a background-color to that header.
 - Create a stylesheet.css file and import it into the index.html file.
 - Add a new div with a class name of "info". Inside that div add an `<h2> My name is YOUR NAME </h2>` Add a background-color and a text color of your choice.
@@ -55,4 +29,4 @@ The style should look something like this (image shown has a little more CSS - f
 ## Assignment Submission
 Check in your repo, then turn in your work via the Prime Academy Assignment Application at http://primeacademy.io, as usual and don't hesitate to hit up the Slack channel as needed!
 
-**REMINDER:** Make sure to answer the Slack discussion question for this week!                             -->
+**REMINDER:** Make sure to answer the Slack discussion question for this week!
