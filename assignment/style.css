@@ -14,7 +14,7 @@ header {
  }
 .topcentered{ 
    position: relative;
-   top: 20px;
+   top: 52px;
    left: 248px;
    text-align: center;
    width: 410px;
@@ -24,10 +24,10 @@ header {
 }
 .bottomcentered {
    position: absolute;
-   top: 475px;
+   top: 453px;
    left: 255px;
    text-align: center;
-   width: 400px;
+   width: 420px;
    
    
 }
