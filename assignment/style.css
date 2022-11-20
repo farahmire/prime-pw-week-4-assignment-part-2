@@ -4,9 +4,11 @@ header {
 
 
 .container {
-   position: relative;
+   
+   position: fixed;
    text-align: center;
    margin: auto;
+   
    
    
  }
@@ -15,15 +17,15 @@ header {
    top: 20px;
    left: 248px;
    text-align: center;
-   width: 400px;
+   width: 410px;
    
   
 
 }
 .bottomcentered {
    position: absolute;
-   top: 325px;
-   left: 248px;
+   top: 475px;
+   left: 255px;
    text-align: center;
    width: 400px;
    
@@ -36,7 +38,16 @@ h2 {
    color: #0a3b02;
   
 }
+img{ 
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   background: yellow;
+   padding: 10px;
+   border: 1px solid lightyellow
+   
 
+}
 h3{
    background-color: royalblue;
    color: aqua;
@@ -46,8 +57,4 @@ body{
    padding: 10px;
    
 }
-
-
-
-
 
