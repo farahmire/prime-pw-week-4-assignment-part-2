@@ -3,58 +3,53 @@ header {
 }
 
 
-.container {
+.contain {
    
-   position: fixed;
-   text-align: center;
-   margin: auto;
-   
-   
-   
- }
-.topcentered{ 
-   position: relative;
-   top: 52px;
-   left: 248px;
-   text-align: center;
-   width: 410px;
-   
-  
+ width: 600px;
+ border: 1px solid green;
+ margin:auto;
+ margin-top: 200px;
+ 
 
 }
-.bottomcentered {
-   position: absolute;
-   top: 453px;
-   left: 255px;
-   text-align: center;
-   width: 420px;
    
    
+   
+ 
+.layout { 
+   display: flex;
+   flex-direction: column;
+
 }
 
 
-h2 {
+   
+
+
+.layout .h2 {
    background-color: #fdbb2d;
    color: #0a3b02;
+   text-align: center;
+   font-size: 25px;
   
 }
-img{ 
-   display:block;
-   margin-left: auto;
-   margin-right: auto;
-   background: yellow;
-   padding: 10px;
-   border: 1px solid lightyellow
-   
 
-}
-h3{
-   background-color: royalblue;
-   color: aqua;
+.layout .h2::before {
+   content: "My name is Farah Mire";
 }
 
-body{
-   padding: 10px;
-   
+ .h3 {
+   background-color: blueviolet;
+   color: teal;
+   text-align: center;
+   font-size: 25px;
+
 }
+
+.h3::before {
+   content: "And I drive a Honda Civic";
+}
+   
+
+
 
