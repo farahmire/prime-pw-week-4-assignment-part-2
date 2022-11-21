@@ -16,7 +16,7 @@ header {
    
    
  
-.layout { 
+.info { 
    display: flex;
    flex-direction: column;
 
@@ -26,7 +26,7 @@ header {
    
 
 
-.layout .h2 {
+.info .h2 {
    background-color: #fdbb2d;
    color: #0a3b02;
    text-align: center;
@@ -34,7 +34,7 @@ header {
   
 }
 
-.layout .h2::before {
+.info .h2::before {
    content: "My name is Farah Mire";
 }
 
